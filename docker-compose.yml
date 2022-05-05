@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: toikkaconstruction
+    build: .
+    container_name: toikkaconstruction
+    restart: always
+    ports:
+      - "8443:80"
