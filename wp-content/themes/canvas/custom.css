@@ -1,0 +1,108 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles at the end of this file instead 
+of style.css so it is easier to update the theme. 
+Simply copy an existing style from style.css to this file, 
+and modify it to your liking.
+*/
+
+/* Body */
+body, p {
+  color: #555555;
+  font: 14px/1.5em Arial;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #F0F5DD;
+  border-color: #F0F5DD;
+  border-radius: 0 0 0 0;
+  border-style: solid;
+  border-width: 4px 0 0;
+  height: 110px;
+}
+
+#copyright p {
+  color: #111111;
+  font-size: 11px;
+  font-style: normal;
+  width: 190px;
+  line-height: 15px;
+  margin-left: 20px;
+}
+
+#credit p {
+  color: #111111;
+  font-size: 11px;
+  font-style: normal;
+  width: 290px;
+  text-align: right;
+  line-height: 15px;
+  margin-right: 20px;
+}
+
+.emailicon {
+	background: url("../toikka/images/email.png") no-repeat scroll 0 2px transparent;
+	padding-left: 20px;
+}
+
+/* Header */
+
+#header {
+  clear: both;
+  position: relative;
+  padding: 30px 0 0;
+}
+
+/* Menu */
+
+#navigation {
+	border: none;	
+}
+.nav a, .nav li.current_page_item, .nav li.current_page_parent, .nav li.current-menu-ancestor, .nav li.current-menu-item, .nav li.sfHover, .nav li.selected {
+	border-radius: 0px;  
+}
+
+ul#main-nav{margin:0; padding:0; list-style:none; clear:both;}
+		#main-nav li{overflow:hidden; text-indent:-9999px; display:inline; float:left; margin-right:0px;}
+			#main-nav li a{background:url('../toikka/images/menu.png') no-repeat; width:100%; height:100%; display:block;}
+
+			/* Home Button */
+			#main-nav li.menu-item-4{width:192px; height:50px;}
+				#main-nav li.menu-item-4 a{background-position:0px -50px;}
+				#main-nav li.menu-item-4 a:hover{background-position:0px 0px;}
+				#main-nav li.menu-item-4 a.selected{background-position: 0px 0px;}
+				#main-nav li.menu-item-4.current-menu-item a {background-position: 0px 0px;}
+
+			/* Services Button */
+			#main-nav li.menu-item-5{width:192px; height:50px;}
+				#main-nav li.menu-item-5 a{background-position: -192px -50px;}
+				#main-nav li.menu-item-5 a:hover{background-position: -192px 0px;}
+				#main-nav li.menu-item-5 a.selected{background-position: -192px -0px;}
+				#main-nav li.menu-item-5.current-menu-item a {background-position: -192px 0px;}
+
+		   	/* Portfolio Button */
+			#main-nav li.menu-item-7{width:192px; height:50px;}
+				#main-nav li.menu-item-7 a{background-position:-384px -50px;}
+				#main-nav li.menu-item-7 a:hover{background-position:-384px 0px;}
+				#main-nav li.menu-item-7 a.selected{background-position:-384px 0px;}
+				#main-nav li.menu-item-7.current-menu-item a {background-position:-384px 0px;}
+				
+			/* Kudos Button */
+			#main-nav li.menu-item-6{width:192px; height:50px;}
+				#main-nav li.menu-item-6 a{background-position:-576px -50px;}
+				#main-nav li.menu-item-6 a:hover{background-position:-576px 0px;}
+				#main-nav li.menu-item-6 a.selected{background-position:-576px 0px;}
+				#main-nav li.menu-item-6.current-menu-item a {background-position:-576px 0px;}
+
+			/* Contact Button */
+			#main-nav li.menu-item-8{width:192px; height:50px;}
+				#main-nav li.menu-item-8 a{background-position:-768px -50px;}
+				#main-nav li.menu-item-8 a:hover{background-position:-768px 0px;}
+				#main-nav li.menu-item-8 a.selected{background-position:-768px -0px;}
+				#main-nav li.menu-item-8.current-menu-item a {background-position:-768px 0px;}
